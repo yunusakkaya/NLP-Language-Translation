@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from gensim.models import Word2Vec
 from sklearn.manifold import TSNE
 
-f=open('hurriyet.txt','r',encoding='utf8')
+f=open('h.txt','r',encoding='utf8')
 text=f.read()
 t_list=text.split('\n')
 
